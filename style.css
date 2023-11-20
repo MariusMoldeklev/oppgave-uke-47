@@ -1,0 +1,81 @@
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 5px;
+    transition: transform 0.8s ease-in-out;
+}
+#btn:hover {
+    transform: rotate(360deg);
+}
+
+.theme_switch {
+background-color: #87CEEB;
+}
+
+.☀️ {
+    background-color: rgb(216, 213, 40);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(216, 213, 40); /* Light blue background */
+  }
+
+  .🌤️ {
+    background-color: rgb(120, 233, 208);
+  } 
+  .🌥️ {
+    background-color: rgb(47, 189, 255);
+  } 
+  .🌧️ {
+    background-color: rgb(168, 166, 166);
+  }
+
+  .🌙 {
+    background-color: rgb(17, 38, 131);
+  }
+  /* ["☀️", "🌤️","🌥️","🌧️", "🌙"];  */
+  /* ["sun","sunCloud", "sunBigCloud", "rain","moon"] */
+
+  .sun {
+    background-color: rgb(216, 213, 40);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+  }
+  .sunCloud {
+    border: 4px double #886224;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%
+  }
+
+  .sunBigCloud {
+    border: 10px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(45deg, #3498db, #e74c3c);
+  }
+
+  .rain {
+    border: 8px solid #9b59b6;
+    border-radius: 10px;
+    text-shadow: 0px 0px 16px black;
+  }
+
+  .moon {
+    /* border: 4px double #f39c12;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%; */
+
+    width: 100%;
+    height: 100%;
+    border: 8px solid #3498db;
+    border-radius: 50%;
+  }
